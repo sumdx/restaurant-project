@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+/* shared style */
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(82, 195, 3);
+    border-radius: 8px;
+    padding: 21px 32px;
+    border: none;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+.text-primary-color{
+    color: rgb(255, 255, 255);
+}
+
+/* header style */
+.header{
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url('../assets/hero-bg.png');
+    width: 100%;
+    height: 90vh;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-subheading{
+    
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.header-heading{
+    margin-top: 16px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.header-paragraph{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+
+}
+
+
+.header-btn-container{
+    margin-top: 32px;
+    text-align: center;
+}
+
+/* Card/sale styles */
+
+.card-container{
+    padding: 167px 300px;
+    text-align: center;
+}
+.card-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.card-title{
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: rgb(16, 16, 16);
+}
+.box-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.box-image{
+    height: 283px;
+    width: 424px;
+}
+
+.box-name{
+    
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%; 
+    padding: 14px 32px;
+    background-color: rgba(82, 195, 3, 0.15);
+}
+
+.box-name-container{
+    margin-top: 32px;
+} 
+
+.box-title{
+    margin-top: 32px;
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.box-paragraph{
+    margin-top: 24px;
+    color: rgb(16, 16, 16);
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.box-btn{
+    margin-top: 64px;
+}
+
+/* social */
+.social{
+    display: flex;
+    justify-content: start;
+    gap: 0;
+}
+.social-content{
+    text-align: center;
+}
